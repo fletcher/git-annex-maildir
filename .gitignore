@@ -10,13 +10,17 @@ dovecot-uidvalidity.*
 
 dovecot-uidlist
 
+# Index files
 dovecot.index
 dovecot.index.cache
 dovecot.index.log
 dovecot.index.log.2
 dovecot.list.index*
+dovecot.skindex
 
+# Lock files
 *.lock
+*.sklock
 
 tmp
 tmp/*
