@@ -1,0 +1,22 @@
+.DS_Store
+
+# Try not to index files that can be rebuilt, and that will need to be updated
+# if things change (e.g. index files, lock files, logs)
+
+dovecot.mailbox.log
+
+dovecot-uidvalidity
+dovecot-uidvalidity.*
+
+dovecot-uidlist
+
+dovecot.index
+dovecot.index.cache
+dovecot.index.log
+dovecot.index.log.2
+dovecot.list.index*
+
+*.lock
+
+tmp
+tmp/*
